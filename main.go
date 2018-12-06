@@ -1,14 +1,9 @@
-package main
+package mod
 
 import (
 	"fmt"
 )
 
-// Says modul for says hello world
-func Says() string {
-	return "hello world"
-}
-
 func main() {
-	fmt.Println(Says())
+	fmt.Println("MAIN")
 }
